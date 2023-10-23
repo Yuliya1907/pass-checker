@@ -1,0 +1,42 @@
+.container {
+  width: 600px;
+  display: flex;
+  margin: 30px auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px rgb(240, 236, 236) solid;
+  border-radius: 15px;
+  padding: 50px;
+  background-color: #51b8b8;
+  box-shadow: 12px 7px 5px rgb(155, 152, 152);
+}
+.input {
+  width: 60%;
+  height: 30px;
+  border-radius: 5px;
+}
+.strength {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  gap: 20px;
+}
+.strength div {
+  height: 20px;
+  width: 100px;
+  margin: 5px;
+  border: 1px solid #ccc;
+}
+
+.easy {
+  background-color: gray;
+}
+
+.medium {
+  background-color: gray;
+}
+
+.strong {
+  background-color: gray;
+}
