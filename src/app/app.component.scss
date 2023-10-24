@@ -1,5 +1,5 @@
 .container {
-  width: 600px;
+  max-width: 600px;
   display: flex;
   margin: 30px auto;
   flex-direction: column;
@@ -11,6 +11,15 @@
   background-color: #51b8b8;
   box-shadow: 12px 7px 5px rgb(155, 152, 152);
 }
+
+.title {
+  font-size: 48px;
+
+  @media (max-width: 768px) {
+    font-size: 32px;
+  }
+}
+
 .input {
   width: 60%;
   height: 30px;
@@ -21,12 +30,20 @@
   flex-direction: row;
   margin-top: 20px;
   gap: 20px;
+
+  @media (max-width: 768px) {
+    gap: 10px;
+  }
 }
 .strength div {
   height: 20px;
   width: 100px;
   margin: 5px;
   border: 1px solid #ccc;
+
+  @media (max-width: 768px) {
+    width: 50px;
+  }
 }
 
 .easy {
